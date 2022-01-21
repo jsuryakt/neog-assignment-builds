@@ -1,0 +1,65 @@
+html, body {
+    font-family: sans-serif;
+    background-color: rgb(235, 235, 235);
+}
+
+.drawer {
+  height: auto;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  padding:8px;
+}
+
+.header {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  color: rgb(145, 145, 145);
+  /* font-weight: normal; */
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.element {
+  display: flex;
+  padding: 10px;
+  border-radius: 5px;
+  margin:3px;
+}
+
+p,h3 {
+  margin:0;
+  user-select: none;
+}
+
+.element p {
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+
+.element:active:hover {
+  background-color: #c8a6f7;
+}
+
+.element:hover {
+  cursor: pointer;
+  background-color: rgb(243, 241, 243);
+}
+
+.element:focus {
+  color: rgba(98,0,238,.87);
+  background-color:#d7c0f7;
+}
+
+/* .element:focus {
+  background-color: rgb(0, 255, 34);
+} */
