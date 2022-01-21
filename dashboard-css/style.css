@@ -1,0 +1,64 @@
+body {
+  background-color: whitesmoke
+}
+
+.elements-container {
+  display: flex;
+  gap: 10px;
+}
+
+.dashboard-header {
+  display:flex;
+  justify-content: space-between;
+  background-color: cornflowerblue;
+  padding:10px;
+  color:white;
+}
+
+.profile {
+  height: 10px;
+  width: 10px;
+  padding:5px;
+  border-radius: 50%;
+  background-color:whitesmoke;
+}
+
+.container {
+  max-width: 900px;
+  margin: 10px;
+  display: flex;
+  /* background-color: gainsboro; */
+}
+
+.sidebar {
+  flex-basis: 150px;
+  margin-right: 1rem;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.content {
+  height:100px;
+  padding:1rem;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.search-input {
+  border: 2px solid cornflowerblue;
+  border-radius: 4rem;
+  flex-shrink: 1;
+  width: 900px;
+  padding: 6px 12px;
+}
+
+.search-btn {
+  background-color: cornflowerblue;
+  border-radius: 4rem;
+  color: white;
+  margin: auto 1rem;
+  padding: 0.5rem;
+  border: none;
+}
