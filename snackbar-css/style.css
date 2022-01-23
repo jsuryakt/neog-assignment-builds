@@ -1,0 +1,53 @@
+.snackbar {
+  width: 350px;
+  padding: 8px 15px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  background-color: rgb(61, 61, 61);
+  border-radius: 5px;
+  z-index: 9999;
+  position: fixed;
+  top: 10px;
+}
+
+p {
+  margin: 0;
+  color: white;
+}
+
+button {
+  border:none;
+  border-radius: 5px;
+  color: rgb(196, 19, 196);
+  padding: 10px 8px;
+  font-weight: bold;
+  background-color: rgb(61, 61, 61);
+}
+
+button:hover{
+  background-color: rgb(66, 10, 112);
+}
+
+button:active:hover {
+  background-color: rgb(96, 10, 167);
+}
+
+button, i {
+  cursor: pointer; 
+}
+
+i {
+  color: white;
+padding: 12px 15px;
+  border-radius: 50%;
+}
+
+i:hover {
+  background-color: rgb(100, 100, 100);
+}
+
+i:active:hover {
+  background-color: rgb(133, 132, 133);
+}

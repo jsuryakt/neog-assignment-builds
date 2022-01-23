@@ -1,0 +1,47 @@
+.btn {
+  width: 70px;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 5px;
+  position: relative;
+}
+
+.text {
+  position: relative;
+}
+
+.container {
+  margin: 20px;
+  /* display: flex;
+  flex-direction: column;
+  gap: 20px; */
+}
+
+.badge-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.right {
+  top: -15px;
+  right: -15px;
+}
+
+.left {
+  top: -10px;
+  left: -10px;
+}
+
+.bckgnd-grey {
+  background-color: grey;
+}
+
+.bckgnd-red {
+  background-color: rgb(233, 32, 65);
+}

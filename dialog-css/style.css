@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* .container {
+  display: flex;
+  gap: 30px;
+} */
+
+.dialog {
+  max-width: 240px;
+  max-height: 360px;
+  border-radius: 5px;
+  background-color: white;
+  margin: 10px;
+}
+
+.box-1, .box-3{
+  padding-right: 8px;
+  padding-bottom: 8px;
+}
+
+body {
+  background-color: rgb(167, 164, 164);
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  letter-spacing: 0.8px;
+  padding-top: 20px;
+}
+
+h3, p {
+  margin:0;
+}
+
+.header-body h3, 
+.header-body p {
+  padding-left: 20px;
+}
+
+p{
+  color: rgba(0,0,0,0.6);
+}
+
+.header-body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.action-btn{
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-end; */
+  justify-content: flex-end; 
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.action-btn button {
+  letter-spacing: 1.2px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+  color: #6200ee;
+  font-weight: bold;
+}
+
+.action-btn button:hover { 
+  background-color: #f8f6fc;
+}
+
+.action-btn button:active:hover { 
+  background-color: #dccdfc;
+}
+
+.action-btn button:focus { 
+  background-color: #e5dcf8;
+}
+
+.toggle {
+  margin: 15px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+/* Dialog 2 */
+
+.action-item {
+  padding: 10px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; */
+}
+
+.item {
+  display: flex;
+  gap: 20px;
+  padding:10px;
+  align-items: center;
+}
+
+.item:hover {
+  background-color: rgb(243, 243, 243);
+}
+
+.item:active:hover { 
+  background-color: #cecece;
+}
+
+.item:focus { 
+  background-color: #dbdadb;
+}
+
+.material-icons.md-48 { 
+  font-size: 48px;
+  color: grey;
+}
+
+/* Dialog 3 */
+.action-item-radio {
+  margin: 10px;
+  height: 150px;
+  /* overflow: scroll; */
+  overflow-y: scroll;
+  display:flex;
+  flex-direction: column;
+}
+
+.item-radio {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+
+input[type="radio"]:checked {
+  background-color: #6200ee;
+}
